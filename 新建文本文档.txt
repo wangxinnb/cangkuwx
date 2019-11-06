@@ -1,0 +1,15 @@
+class person(object):
+    def __init__(self,name,age,sex):
+        self.setname(name)
+        self.setage(age)
+        self.setsex(sex)
+    def setname(self,name):
+        self.__name=name
+    def setage(self,age):
+        self.__age=age
+    def setsex(self,sex):
+        self.__sex=sex
+    def show(self):
+        print(self.__name,self.__age,self.__sex)
+a=person('²©¸ç',21,'ÄÐ')
+a.show()
